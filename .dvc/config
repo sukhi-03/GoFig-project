@@ -1,9 +1,0 @@
-[core]
-    remote = remote
-['remote "myremote"']
-    url = gdrive://1sKI1H5D4-1C7Uw26BtGh8X9Jyd9_hcMs/dvc-storage
-    gdrive_use_service_account = false
-['remote "remote"']
-    url = s3://gofigbucket/dvc
-    region = eu-north-1
-    profile = default
